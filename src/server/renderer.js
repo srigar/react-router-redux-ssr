@@ -18,6 +18,7 @@ export default (req, store, context) => {
   const template = `
           <html>
               <head>
+                <link rel="stylesheet" href="style.css"></link>
               </head>
               <body>
                   <div id="root">

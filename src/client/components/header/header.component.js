@@ -11,11 +11,13 @@ class Header extends React.Component {
         <a href="/api/auth/google">Login</a>
     )
     return (
-      <div>
+      <div className="header-links">
+        <h1>Server Side Rendering</h1>
+        <p>Check network tab for templete details</p>
         <Link to="/">Home</Link>
         <Link to="/users">Users</Link>
         <Link to="/admins">Admins</Link>
-        {authButton}
+        {/* {authButton} */}
       </div>
     );
   }
